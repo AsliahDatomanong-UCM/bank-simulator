@@ -6,7 +6,7 @@ namespace ATMApp.View
     {
         public static void Run()
         {
-          double Balance = 1000;
+            double balance = 1000;
             bool isRunning = true;
             
             Course.WriteLine("== Simple ATM System ==");
@@ -42,8 +42,8 @@ namespace ATMApp.View
                     
                     case "4":
                     Console.WriteLine("--- Mini Statement ---");
-                    Console.WriteLine("Current Balance: ₱" + Balance);
-                    Console.WriteLine("Last Transaction Amount: ₱" + Amount);
+                    Console.WriteLine("Current Balance: ₱" + balance);
+                    Console.WriteLine("Last Transaction Amount: ₱" + amount);
                     
                     case "5":
                     bool isRunning = false;
